@@ -9,7 +9,9 @@ const BookDetails = ( {book} ) => {
     <li>
       <div className='title'>{ book.title }</div>
       <div className='author'>{ book.author }</div>
+      <button onClick={() => removeBook(book.id)}>Delete book</button>
     </li>
+    
    );
 }
  

@@ -10,7 +10,6 @@ function App() {
       <BookContextProvider>     
         <Navbar />
         <BookList />
-
       </BookContextProvider>
     </div>
   );
